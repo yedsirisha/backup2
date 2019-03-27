@@ -1,0 +1,65 @@
+Started by user [8mha:////4CORn7fqGXJGzdg+PdVV1fWg2YOloHetmGYk91eFB+WOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0msirisha yedururu
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\Deploy_job
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/yedsirisha/mvnwebapp.git
+ > C:\Program Files\Git\cmd\git.exe init C:\Program Files (x86)\Jenkins\workspace\Deploy_job # timeout=10
+Fetching upstream changes from https://github.com/yedsirisha/mvnwebapp.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/yedsirisha/mvnwebapp.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/yedsirisha/mvnwebapp.git # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/yedsirisha/mvnwebapp.git # timeout=10
+Fetching upstream changes from https://github.com/yedsirisha/mvnwebapp.git
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress https://github.com/yedsirisha/mvnwebapp.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 285ef86cf88a5b64b6bfb702a7ed50a3218f9997 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 285ef86cf88a5b64b6bfb702a7ed50a3218f9997
+Commit message: "Update index.jsp"
+First time build. Skipping changelog.
+[Deploy_job] $ cmd /c call C:\windows\TEMP\jenkins3751033996024589771.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Deploy_job>mvn package 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< jenkins.mvn.demo:mvnwebapp >---------------------
+[INFO] Building mvnwebapp Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mvnwebapp ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Deploy_job\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ mvnwebapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mvnwebapp ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\Deploy_job\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mvnwebapp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mvnwebapp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ mvnwebapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [mvnwebapp] in [C:\Program Files (x86)\Jenkins\workspace\Deploy_job\target\mvnwebapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Program Files (x86)\Jenkins\workspace\Deploy_job\src\main\webapp]
+[INFO] Webapp assembled in [51 msecs]
+[INFO] Building war: C:\Program Files (x86)\Jenkins\workspace\Deploy_job\target\mvnwebapp.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.122 s
+[INFO] Finished at: 2019-03-26T15:40:40+05:30
+[INFO] ------------------------------------------------------------------------
+Deploying C:\Program Files (x86)\Jenkins\workspace\Deploy_job\target\mvnwebapp.war to container Tomcat 8.x Remote with context sirideploy
+  [C:\Program Files (x86)\Jenkins\workspace\Deploy_job\target\mvnwebapp.war] is not deployed. Doing a fresh deployment.
+  Deploying [C:\Program Files (x86)\Jenkins\workspace\Deploy_job\target\mvnwebapp.war]
+Finished: SUCCESS

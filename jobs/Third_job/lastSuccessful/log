@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4BmyIf4DL8iEKVxwq8PRIF3mbq0H6hBjdwjz6XTYHokwAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP3gVKDqlHgQEwAkBMxnxQAAAA==[0mSecond_job" build number [8mha:////4GO+rQ6vDRnVCT3AfpSbTrpG5B+p+vSj7bxjDjN1ruLKAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+sGpQNUp8SCmoREATyYhdMcAAAA=[0m12
+originally caused by:
+ Started by upstream project "[8mha:////4LMtC8OpJJ5f7MjL03Wxg/RUkL/mItI7fZxCB8gp5XFMAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH23zKLikngQCwBaGCLqxAAAAA==[0mFirst_job" build number [8mha:////4MX9y/nnQzJPQDX5H1e+NI6pBdJVmGTE+HydBR8fCy6SAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH23zKLikngQy9AIAGNGCXXGAAAA[0m12
+ originally caused by:
+  Started by user [8mha:////4CORn7fqGXJGzdg+PdVV1fWg2YOloHetmGYk91eFB+WOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0msirisha yedururu
+ Started by upstream project "[8mha:////4LMtC8OpJJ5f7MjL03Wxg/RUkL/mItI7fZxCB8gp5XFMAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH23zKLikngQCwBaGCLqxAAAAA==[0mFirst_job" build number [8mha:////4BkQk/4bVyDl+/le+dRM8XH+Tze/pyaoq7O0QBnQ1ryVAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH23zKLikngQy9AYAPV2DgLGAAAA[0m13
+ originally caused by:
+  Started by user [8mha:////4CORn7fqGXJGzdg+PdVV1fWg2YOloHetmGYk91eFB+WOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0msirisha yedururu
+Building on master in workspace C:\Program Files (x86)\Jenkins\workspace\Third_job
+[Third_job] $ cmd /c call C:\windows\TEMP\jenkins519510487283637472.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Third_job>echo "Third job run after second" 
+"Third job run after second"
+
+C:\Program Files (x86)\Jenkins\workspace\Third_job>exit 0 
+Finished: SUCCESS

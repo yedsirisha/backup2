@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4LMtC8OpJJ5f7MjL03Wxg/RUkL/mItI7fZxCB8gp5XFMAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH23zKLikngQCwBaGCLqxAAAAA==[0mFirst_job" build number [8mha:////4MX9y/nnQzJPQDX5H1e+NI6pBdJVmGTE+HydBR8fCy6SAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH23zKLikngQy9AIAGNGCXXGAAAA[0m12
+originally caused by:
+ Started by user [8mha:////4CORn7fqGXJGzdg+PdVV1fWg2YOloHetmGYk91eFB+WOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0msirisha yedururu
+Started by upstream project "[8mha:////4LMtC8OpJJ5f7MjL03Wxg/RUkL/mItI7fZxCB8gp5XFMAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH23zKLikngQCwBaGCLqxAAAAA==[0mFirst_job" build number [8mha:////4BkQk/4bVyDl+/le+dRM8XH+Tze/pyaoq7O0QBnQ1ryVAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JH23zKLikngQy9AYAPV2DgLGAAAA[0m13
+originally caused by:
+ Started by user [8mha:////4CORn7fqGXJGzdg+PdVV1fWg2YOloHetmGYk91eFB+WOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0msirisha yedururu
+Building on master in workspace C:\Program Files (x86)\Jenkins\workspace\Second_job
+[Second_job] $ cmd /c call C:\windows\TEMP\jenkins1037760567135349356.bat
+
+C:\Program Files (x86)\Jenkins\workspace\Second_job>echo "**second job after first job" 
+"**second job after first job"
+
+C:\Program Files (x86)\Jenkins\workspace\Second_job>exit 0 
+Triggering a new build of [8mha:////4MRAYXaLh1koxSZDT/phvOF0q36Usnjhj+2FB4YcQNzOAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2QjMyilHgQCwCeeXJaxAAAAA==[0mThird_job
+Finished: SUCCESS
